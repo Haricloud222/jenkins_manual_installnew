@@ -1,0 +1,9 @@
+3. Steps Breakdown
+
+
+Section	Purpose
+pipeline {}	Defines the entire CI/CD process
+agent any	Tells Jenkins to use any available node
+stages {}	Contains multiple stages (Build, Test, Deploy, etc.)
+steps {}	Actual commands executed in that stage
+post {}	Defines actions after success/failure (like sending notifications)
